@@ -1,0 +1,50 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62, 5%;
+}
+
+body {
+    background-image: url(./Imagenes/imagen_fondo6.jpg);
+    font-size: 1, 6rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Enlace {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    width: 70%;
+    margin: 2rem 6rem 2rem 6rem ;
+    overflow: hidden;
+    text-decoration: none;
+    border: solid green;
+}
+
+header,footer {
+    background: linear-gradient(to right,rgb(51, 139, 239) 0%,rgb(65, 95, 107) 50%,rgb(244, 191, 101) 100%);
+    text-align: center;
+    padding: 2rem;
+}
+
+div a{
+    text-decoration: none;
+    color: black;
+}
+
+div {
+    border: solid black;
+}
