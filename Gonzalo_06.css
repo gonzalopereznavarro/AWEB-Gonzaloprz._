@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    background-color: rgb(233, 176, 135);
+h1{
+    background-color: white;
+    padding: 15px;
+    margin: 10px 10px 10px 10px ;
+}
+}
+.MenuH{
+    overflow: hidden;
+    border: 5px double;
+}
+.MenuV{
+    float: left;
+    width: 26%;
+    overflow: hidden;
+    border: 5px double;
+}
+.MenuV a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+.MenuV a:hover{
+    background-color: white;
+    color: black;
+}
+.MenuH a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+}
+.MenuH a:hover{
+    background-color: white;
+    color:black
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 40px auto 40px auto;
+}
+nav a{
+    flex-grow: 1;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+.menuFlex{
+    display: flex;
+    justify-content:space-around;
+    width: 80%;
+    margin: 20% auto;
+    overflow: hidden;
+    border-top: 2px white solid;
+}
+
+.menuFlex a:first-child, .menuGrid a:first-child{
+    border-bottom-left-radius: 25px;
+}
+
+.menuFlex a:last-child, .menuGrid a:last-child{
+    border-bottom-right-radius: 25px;
+}
+.menuFlex a:nth-child(3), .menuGrid a:nth-child(2){
+    background-color: rgb(225, 225, 160);
+}
+
+.menuFlex a{
+    text-decoration: none;
+    background-color: black(0, 0, 0);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.menuFlex a:hover{
+    background-color: aquamarine;
+    color: aliceblue;
+}
+
+
+
+
+.menuGrid{
+    width: 80%;
+    margin: 20 auto;
+    overflow: hidden;
+    border-top: 2px white solid;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.menuGrid a{
+    text-decoration: none;
+    background-color: black(0, 0, 0);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.menuGrid a:hover{
+    background-color: aquamarine;
+    color: aliceblue;
+}

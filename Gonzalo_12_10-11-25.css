@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    background-color: white;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+body {
+    background-image: url(Imagenes/imagen_fondo4.jpg);
+}
+
+/*Degradados y sombras*/
+body {
+    background-image: linear-gradient(to right, rgb(66, 182, 205), white);
+}
+
+header {
+    border: solid black 1px;
+    border-radius: 25px;
+    padding: 20px;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(57, 57, 232), white);
+}
+
+p {
+    border: 1px black solid;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px
+}
+
+.p1 {
+    background-image: linear-gradient(to left, blue, white, green)
+}
+
+.p2 {
+    background-image: radial-gradient(pink 50%, rgb(123, 231, 215))
+}
+
+.p3 {
+    background-image: linear-gradient(to left, yellow, white, rgb(115, 115, 235), pink)
+}
+
+.imagen {
+    background-image: linear-gradient(to right, transparent 50%, #037bc0 50%, #037bc0 100%), url(./Imagenes/Fotomoto6.jpeg);
+    background-size: 100%, 20rem;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10rem 0;
+    width: 100%;
+}
+
+.imagen h2 {
+    grid-column: 2/3;
+    text-align: center;
+    color: white;
+}

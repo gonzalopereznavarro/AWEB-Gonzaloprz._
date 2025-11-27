@@ -1,0 +1,51 @@
+/*Aquí es donde vamos a ordenar y dejar bonito nuestro codigo*/
+body {
+    background-color: rgb(109, 129, 121);
+}
+h1 {
+    color: aqua;
+    text-align: center;
+}
+
+.p1 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color:aqua;
+    border-radius: 15px;
+    margin: 25px 35px 10px 0px ;
+
+}
+.p2 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: red;
+    border-radius: 10px;
+    margin: 15px;
+
+}
+.p3 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    background-color: green;
+    border-radius: 10px;
+    margin: 20px;
+
+}
+h2 {
+    border: solid;
+    border-radius: 10px;
+    color: rgb(229, 230, 220);
+    text-decoration: underline;
+}
+h3 {
+    color: #004433;
+    background-color: antiquewhite;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 25px;
+}
+h4 {
+    border: solid;
+    background-color: darkorange;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}

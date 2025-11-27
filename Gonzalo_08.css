@@ -1,0 +1,43 @@
+.grid{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+.grid img{
+    width: 100%;
+    border: 3px solid rgb(255, 255, 255);
+    margin: auto;
+}
+header{
+    border-style: solid;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+h1{
+    background-color: black;
+    color: white;
+}
+footer{
+    border-style: solid;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
+.main{
+    height: 1200px;
+}
+body{
+    background-image: url(imagen_fondo4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+img{
+    transition: all 0,9s linear;
+}
+img:hover{
+    transform: scale(0.9);
+}

@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+#video_moto{
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+header,footer{
+    background-color: rgb(108, 210, 228);
+    padding: 20px;
+    border: solid;
+    opacity: 0.85;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+}
+
+h1{
+    text-align: center;
+}

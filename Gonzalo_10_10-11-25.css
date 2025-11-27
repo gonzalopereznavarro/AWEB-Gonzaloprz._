@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62,5%;
+}
+
+header,footer{
+    background-color: white;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+body{
+   font-size: 1,6;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient(to right, rgb(45, 82, 230), white);
+}
+
+video,audio,iframe{
+    padding-top: 1rem;
+    width: 80%;
+    margin: auto;
+    display: block;
+}
+
+video,iframe{
+    border-style: solid;
+    color: white;
+}
+

@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+header,footer{
+    background-color: white;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+body{
+    background-image: url(Imagenes/imagen_fondo4.jpg);
+}
+
+/*Fuentes de texto*/
+
+section{
+    background-color: white;
+    display: flex;
+}
+
+video{
+    width: 100%;
+    margin: 1rem;
+}
+.s1{
+    font-family: "Pacifico", cursive;
+}
+
+.s2{
+    font-family: "Kalam", cursive;
+}
+
+.s3{
+    font-family: "Caveat Brush", cursive;
+}
+
+.s4{
+    font-family: "Nothing You Could Do", cursive;
+}

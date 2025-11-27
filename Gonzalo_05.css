@@ -1,0 +1,47 @@
+body{
+    color:white
+}
+h1{
+    color: black;
+    text-align: center;
+}
+div{
+    width: 200px;
+    height: 100px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 40px;
+}
+#cajaNegra{
+    background-color: black;
+    clear: both;
+    width: 100%;
+}
+#cajaAzul{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+}
+#cajaVerde{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;}
+#cajaRoja{
+    background-color: red;
+    clear: both;
+    width: 100%;
+}
+#cajaAmarilla{
+    background-color:yellow;
+     width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+}

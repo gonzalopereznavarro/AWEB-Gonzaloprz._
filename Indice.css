@@ -1,0 +1,70 @@
+/*Este es el CSS de mi trabajo para todas las entregas*/
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html,body {
+    height: 100%;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62, 5%;
+}
+
+body {
+    background-image: url(./Imagenes/imagen_fondo8.jpg);
+    font-size: 1, 6rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    cursor: url(./cursor.cur), auto;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(27, 31, 41);
+    color: white;
+    padding: 20px;
+    border-bottom: 3px solid rgba(140, 100, 45);
+    font-family: cursive;
+    background: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(87, 85, 85) 50%, rgb(244, 243, 241) 100%);
+    text-align: center;
+    padding: 2rem;
+}
+
+div {
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    border: solid black;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+div a {
+    text-decoration: none;
+    color: black;
+}
+
+.Enlace {
+
+    background-color: rgb(204, 200, 200);
+    width: 250px;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.Enlace:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+    background: linear-gradient(to left, rgb(132, 241, 240) 0%, rgb(167, 165, 250) 50%, rgb(240, 213, 166) 100%);
+}
